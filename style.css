@@ -1,0 +1,33 @@
+.portada {
+    background-image: url(img/PORTADA.jpg); background-size:cover;
+}
+
+.fulles {
+    background-image: url("img/FULLES.jpg"); background-size: cover;
+}
+.contenedor {
+ display: flex;justify-content: center; align-items: center; height: 100px ;
+}
+h1 {
+    font-family:Brush; display: flex; justify-content: center; align-items: center; text-decoration:underline; 
+}
+h2 {
+     text-decoration: underline; text-align: center; 
+}
+
+h3 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+header {
+   
+    width: 100%; position: fixed; display: flex; justify-content: center; 
+    
+}
+
+table tr th {
+    border: 1px solid; border-color: black; text-decoration: none; background-color:rgba(0, 0, 0, 0.247) ;
+}
+ th {
+    width: 100px; height: 50px; 
+ }
